@@ -1,0 +1,53 @@
+name: Core GitHub Stats Sync
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Fetch Core GitHub Stats
+        run: |
+          # Automatically uses your GitHub username
+          USERNAME=${{ github.repository_owner }}
+
+          # 1. Total Commits
+          TOTAL_COMMITS=$(curl -s -H "Authorization: token ${{ secrets.GH_PAT }}" \
+            "https://api.github.com/search/commits?q=author:$USERNAME" | jq '.total_count // 0')
+
+          # 2. Total Pull Requests
+          TOTAL_PRS=$(curl -s -H "Authorization: token ${{ secrets.GH_PAT }}" \
+            "https://api.github.com/search/issues?q=author:$USERNAME+type:pr" | jq '.total_count // 0')
+
+          # 3. Total Issues
+          TOTAL_ISSUES=$(curl -s -H "Authorization: token ${{ secrets.GH_PAT }}" \
+            "https://api.github.com/search/issues?q=author:$USERNAME+type:issue" | jq '.total_count // 0')
+
+          # 4. Format for Shields.io Endpoints
+          echo "{\"schemaVersion\": 1, \"label\": \"Global Commits\", \"message\": \"${TOTAL_COMMITS}\", \"color\": \"blue\"}" > commits.json
+          echo "{\"schemaVersion\": 1, \"label\": \"Pull Requests\", \"message\": \"${TOTAL_PRS}\", \"color\": \"success\"}" > prs.json
+          echo "{\"schemaVersion\": 1, \"label\": \"Issues Handled\", \"message\": \"${TOTAL_ISSUES}\", \"color\": \"red\"}" > issues.json
+
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add commits.json prs.json issues.json
+
+          if git diff --cached --quiet; then
+            echo "No new stats to update"
+          else
+            git commit -m "bot: update github stats [skip ci]"
+            git push
+          fi
