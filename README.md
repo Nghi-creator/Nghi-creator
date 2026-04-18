@@ -19,16 +19,16 @@ I'm an aspiring software engineer looking to build things that matter (and hopef
 
 ### Current products
 
-**Pixelated studio edition**
+**PIXELATED Studio edition**
 
 - **Releases:** [PIXELATED Studio v1.0.0](https://github.com/Nghi-creator/Pixelated-Studio-Edition/releases/tag/v1.0.0)
 - **Web app link:** [PIXELATED Studio web application](https://pixelated-studio-edition.vercel.app/)
+- **Repo** [PIXELATED Studio repo](https://github.com/Nghi-creator/Pixelated-Studio-Edition)
 
-**Pixelated user edition**
+**PIXELATED User edition**
 
-- _This is a serverless version leveraging WebAssembly (Wasm)_
-
-- **Web app link:** [PIXELATED User web application](https://pixelated-studio-edition.vercel.app/)
+- **Web app link:** [PIXELATED User web application](https://pixelated-user-edition.vercel.app/)
+- **Repo:** [PIXELATED User repo](https://github.com/Nghi-creator/Pixelated-User-Edition)
 
 ---
 
