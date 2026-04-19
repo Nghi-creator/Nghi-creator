@@ -49,6 +49,6 @@ I'm an aspiring software engineer looking to build things that matter (and hopef
 
 ### Connections
 
-- **Dev post:** [Dev.to Nicholas](https://dev.to/dashboard)
+- **Dev post:** [Dev.to Nicholas](https://dev.to/nicholasthegreat)
 - **LinkedIn:** [Linkedin Nicholas](https://www.linkedin.com/in/nicholas-nguyen-3bb17a335/)
 - **Email:** [Mail Nicholas](mailto:gianghi30032005@gmail.com)
