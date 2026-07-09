@@ -15,7 +15,7 @@
 
 I'm an aspiring software engineer looking to build things that matter (and hopefully land a six-figure job along the way). My main focus is building robust, scalable software. I'd like to my time hunting down latency, and leveraging raw cloud compute, especially for cloud gaming.
 
----
+**[Visit my profile page](https://nghi-creator.github.io/)**
 
 ### Current products
 
