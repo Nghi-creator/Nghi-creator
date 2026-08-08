@@ -43,7 +43,7 @@ The companion user-facing application for PIXELATED Studio.
 
 [Live app](https://pixelated-user-edition.vercel.app/) · [Source](https://github.com/Nghi-creator/Pixelated-User-Edition)
 
-## Engineering focus
+## Technical skills
 
 - **Programming:**
   ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -89,7 +89,7 @@ My portfolio is an interactive desktop-inspired experience where you can explore
 
 <p align="center">
   <a href="https://nghi-creator.github.io/">
-    <img src="https://raw.githubusercontent.com/Nghi-creator/Nghi-creator.github.io/main/public/creatoros-preview.png" width="760" alt="CreatorOS interactive portfolio preview" />
+     <img src="https://raw.githubusercontent.com/Nghi-creator/Nghi-creator.github.io/main/public/creatoros-preview.jpg" width="760" alt="CreatorOS interactive portfolio preview" />
   </a>
 </p>
 
