@@ -4,7 +4,7 @@
   <h1>Nicholas Nguyen</h1>
 
   <p>
-    Full-stack software engineer building reliable web applications and cloud systems.
+    Full-stack software engineer building reliable web applications, cloud systems, and low-latency interactive platforms.
   </p>
 
   <p>
@@ -21,38 +21,46 @@
 
 </div>
 
-## About
+## CreatorOS
 
-I enjoy turning product ideas into dependable software, from accessible frontends and APIs to databases and cloud infrastructure. My current interests are distributed systems, infrastructure as code, and low-latency computing, particularly the engineering behind cloud gaming.
+My portfolio is an interactive desktop-inspired experience where you can explore my projects, experience, education, certifications, and technical interests.
 
-## What I'm working on
+<p align="center">
+  <a href="https://nghi-creator.github.io/">
+    <img src="https://raw.githubusercontent.com/Nghi-creator/Nghi-creator.github.io/main/public/creatoros-preview.jpg" width="760" alt="CreatorOS interactive portfolio preview" />
+  </a>
+</p>
 
-I'm currently contributing to an AI-driven web application for project managers. My work includes developing end-to-end features with the MERN stack, working with SQL and NoSQL data, building API test suites, and collaborating through sprints and code reviews.
+<div align="center">
+  <a href="https://nghi-creator.github.io/"><strong>Open CreatorOS →</strong></a>
+</div>
 
 ## Featured projects
 
 ### PIXELATED Studio Edition
 
-The creator-facing application in the PIXELATED product family.
+Built and released a TypeScript/React creator platform, then extended it into a self-hosted edge-cloud-gaming system with a Fastify control plane, Electron host orchestration, a Dockerized runtime, WebRTC/GStreamer streaming, secure sessions, and cross-layer telemetry.
 
 [Live app](https://pixelated-studio-edition.vercel.app/) · [Source](https://github.com/Nghi-creator/Pixelated-Studio-Edition) · [Latest release](https://github.com/Nghi-creator/Pixelated-Studio-Edition/releases/latest)
 
 ### PIXELATED User Edition
 
-The companion user-facing application for PIXELATED Studio.
+Built and deployed a React/PWA that runs supported NES, Game Boy, and Game Boy Color titles locally in the browser through WebAssembly-based libretro cores, with telemetry for launch time, frame pacing, long tasks, memory, capabilities, and errors.
 
 [Live app](https://pixelated-user-edition.vercel.app/) · [Source](https://github.com/Nghi-creator/Pixelated-User-Edition)
 
-## Technical skills
+## Research focus
 
-- **Programming:**
+I am developing an undergraduate thesis on diagnosing cross-layer latency bottlenecks in edge-cloud-gaming systems using reusable performance fingerprints and targeted probing. The work builds on a self-hosted Docker, GStreamer, and WebRTC testbed with cross-layer telemetry for distinguishing runtime, encoding, network, and client-side bottlenecks.
+
+## Technical stack
+
+- **Languages and application development:**
   ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
   ![JavaScript](https://img.shields.io/badge/JavaScript-20232A?style=flat-square&logo=javascript&logoColor=F7DF1E)
   ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-  ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
   ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white)
   ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-- **Frameworks and runtimes:**
   ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
   ![Node.js](https://img.shields.io/badge/Node.js-233056?style=flat-square&logo=nodedotjs&logoColor=5FA04E)
   ![Express](https://img.shields.io/badge/Express-404D59?style=flat-square&logo=express&logoColor=white)
@@ -62,16 +70,14 @@ The companion user-facing application for PIXELATED Studio.
   ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
   ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
   ![MongoDB](https://img.shields.io/badge/MongoDB-233026?style=flat-square&logo=mongodb&logoColor=47A248)
-- **Cloud:**
+- **Cloud and infrastructure:**
   ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=FF9900)
   ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-- **Infrastructure:**
   ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
   ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
   ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-  ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
   ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-- **Currently exploring:** system design, distributed systems, WebRTC, WebAssembly, and low-latency architecture
+- **Systems and performance:** WebRTC, GStreamer, WebAssembly, telemetry instrumentation, system design, distributed systems, and latency analysis
 
 ## GitHub activity
 
@@ -82,17 +88,3 @@ The companion user-facing application for PIXELATED Studio.
   <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Nghi-creator/Nghi-creator/refs/heads/main/repos.json&style=flat-square" alt="Public repositories" />
   <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Nghi-creator/Nghi-creator/refs/heads/main/followers.json&style=flat-square" alt="GitHub followers" />
 </p>
-
-## CreatorOS
-
-My portfolio is an interactive desktop-inspired experience where you can explore my projects, experience, education, certifications, and technical interests.
-
-<p align="center">
-  <a href="https://nghi-creator.github.io/">
-     <img src="https://raw.githubusercontent.com/Nghi-creator/Nghi-creator.github.io/main/public/creatoros-preview.jpg" width="760" alt="CreatorOS interactive portfolio preview" />
-  </a>
-</p>
-
-<div align="center">
-  <a href="https://nghi-creator.github.io/"><strong>Open CreatorOS →</strong></a>
-</div>
