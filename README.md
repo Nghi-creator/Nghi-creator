@@ -46,7 +46,7 @@ The first working Python pipeline is now able to validate paired observation win
 
 [Source](https://github.com/Nghi-creator/latency_fingerprinting) · [Research overview](https://github.com/Nghi-creator/latency_fingerprinting/blob/main/docs/PROJECT_BUILD_AND_REVIEW_READINESS.md)
 
-## Selected projects
+## Projects
 
 ### PIXELATED Studio
 
