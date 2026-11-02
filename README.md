@@ -27,7 +27,7 @@ CreatorOS is my desktop-inspired portfolio for exploring my projects, experience
 
 <p align="center">
   <a href="https://nghi-creator.github.io/">
-    <img src="https://raw.githubusercontent.com/Nghi-creator/Nghi-creator.github.io/main/public/creatoros-preview.jpg" width="760" alt="CreatorOS interactive portfolio preview" />
+    <img src="creatorOS.png" width="760" alt="CreatorOS interactive portfolio preview" />
   </a>
 </p>
 
