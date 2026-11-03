@@ -69,13 +69,3 @@ A browser gaming app that runs NES, Game Boy, and Game Boy Color titles locally 
 **Systems and media:** WebRTC, GStreamer, WebAssembly
 
 **Research:** telemetry, benchmarking, latency analysis
-
-## GitHub activity
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Nghi-creator&label=Profile%20views&color=2f855a&style=flat-square" alt="Profile views" />
-  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Nghi-creator/Nghi-creator/refs/heads/main/commits.json&style=flat-square" alt="Global commits" />
-  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Nghi-creator/Nghi-creator/refs/heads/main/prs.json&style=flat-square" alt="Pull requests" />
-  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Nghi-creator/Nghi-creator/refs/heads/main/repos.json&style=flat-square" alt="Public repositories" />
-  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Nghi-creator/Nghi-creator/refs/heads/main/followers.json&style=flat-square" alt="GitHub followers" />
-</p>
